@@ -1,11 +1,16 @@
 import "./App.css";
 import "leaflet/dist/leaflet.css";
+import Home from "./pages/Home/Home";
+import React, { FC, useState, useEffect } from "react";
+import Main from "./components/main/Main";
+interface IApp {}
 
-//components
-import ArsMap from "./components/map/ArsMap";
-
-function App() {
-  return <ArsMap />;
-}
+const App: FC<IApp> = ({}) => {
+  return (
+    <>
+   <Main/>
+    </>
+  );
+};
 
 export default App;

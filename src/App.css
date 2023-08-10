@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=EB+Garamond&family=Libre+Baskerville:wght@700&family=Oswald&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=EB+Garamond&family=Karantina:wght@300&family=Libre+Baskerville:wght@700&family=Lilita+One&family=Meie+Script&family=Oswald&family=PT+Sans+Narrow&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=EB+Garamond&family=Libre+Baskerville:wght@700&family=Oswald&family=PT+Sans+Narrow&family=Vollkorn&display=swap');
+
 * {
   box-sizing: border-box;
+  margin:0;
 }
