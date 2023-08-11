@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import styled from "./Main.module.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Home from "../../pages/Home/Home";
+import About from "../../pages/About/About";
 interface IMain {}
 const Main: FC<IMain> = ({}) => {
   return (
@@ -10,6 +11,7 @@ const Main: FC<IMain> = ({}) => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="About" element={<About />} />
       </Routes>
     </div>
   );

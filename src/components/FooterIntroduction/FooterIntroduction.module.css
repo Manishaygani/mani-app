@@ -1,0 +1,8 @@
+.FooterIntroduction{
+    display: flex;
+    align-items:baseline;
+    flex-direction: column;
+color: #FFFFFF;
+margin:10px;
+padding:40px;;
+}

@@ -1,0 +1,7 @@
+.AboutIntroduction{
+    display: flex;
+    padding-bottom:280px;
+    padding-left:80px;
+    flex-direction: column;
+font-family: 'Merriweather', serif;
+}

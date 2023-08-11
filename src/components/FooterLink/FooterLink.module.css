@@ -1,0 +1,7 @@
+.FooterLink{
+    display: flex;
+    flex-direction: column;
+color: #FFFFFF;
+margin:50px;
+padding-left:200px;
+}
