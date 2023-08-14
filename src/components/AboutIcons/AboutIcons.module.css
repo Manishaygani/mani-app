@@ -1,0 +1,6 @@
+.AboutIcons{
+    display: flex;
+    justify-content: space-between;
+    margin-left:550px;;
+    flex-direction: row;
+}

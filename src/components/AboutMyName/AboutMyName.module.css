@@ -1,0 +1,5 @@
+.AboutMyName{
+flex-direction:column-reverse;
+background-color: #7fffd4;
+align-items: flex-end;
+}

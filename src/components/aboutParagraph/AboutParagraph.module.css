@@ -1,0 +1,6 @@
+.aboutparagraph{
+    display: flex;
+    justify-content: space-between;
+    padding-left:250px;
+    margin-left:100px;
+}
