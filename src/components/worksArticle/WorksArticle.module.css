@@ -1,0 +1,8 @@
+.WorksArticle{
+    display:flex;
+    flex-direction: row-reverse;
+    width:430px;
+    height:200px;
+    margin-left:100px;
+margin-top:170px;
+}

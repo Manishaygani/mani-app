@@ -13,7 +13,7 @@ const Navbar: FC<INavbar> = ({}) => {
       <a href="About">
         <li>about</li>
       </a>
-      <a href="">
+      <a href="works">
         {" "}
         <li>works</li>
       </a>

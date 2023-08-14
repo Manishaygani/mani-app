@@ -1,0 +1,24 @@
+{
+"ArticlesData":{
+    "status":true,
+    "message":"success",
+    "data":[
+        {
+            "id":1,
+            "imgUrl":""
+        },
+        {
+            "id":2,
+            "imgUr":""
+        },
+        {
+            "id":3,
+            "imgUrl":""
+        },
+        {
+            "id":4,
+            "imgUrl":""
+        }
+    ]
+}
+}
