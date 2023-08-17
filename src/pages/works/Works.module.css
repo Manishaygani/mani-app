@@ -1,3 +1,12 @@
 .works{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+.arrticle{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right:40px;
+    margin-right:20px;
 }

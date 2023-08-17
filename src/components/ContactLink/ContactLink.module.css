@@ -1,0 +1,8 @@
+.ContactLink{
+    display: flex;
+    margin-left:100px;
+    margin-top:50px;
+font-family: IBM Plex Sans;
+align-items:flex-start;
+justify-content: space-around;
+}

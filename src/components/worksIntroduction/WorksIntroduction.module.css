@@ -1,7 +1,6 @@
 .worksIntroduction{
     display: flex;
 flex-direction: row;
-margin-left:200px;
 margin-top:80px;
 height:40px;
 font-family: 'Francois One', sans-serif;flex-flow: column;

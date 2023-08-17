@@ -17,10 +17,7 @@ const Navbar: FC<INavbar> = ({}) => {
         {" "}
         <li>works</li>
       </a>
-      <a href="">
-        <li>blogs</li>
-      </a>
-      <a href="">
+      <a href="Contact">
         {" "}
         <li>contact</li>
       </a>

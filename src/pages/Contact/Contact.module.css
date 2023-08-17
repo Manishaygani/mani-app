@@ -1,0 +1,8 @@
+.Contact{
+display: flex;
+
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+}
