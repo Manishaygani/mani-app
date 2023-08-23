@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import styled from "./Main.module.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Works from "../../pages/works/Works";
+import { Divide as Hamburger } from "hamburger-react";
 import Home from "../../pages/Home/Home";
 import About from "../../pages/About/About";
 import Contact from "../../pages/Contact/Contact";
@@ -17,6 +18,9 @@ const Main: FC<IMain> = ({}) => {
         <Route path="Works" element={<Works />} />
         <Route path="Contact" element={<Contact />} />
       </Routes>
+      <div className={styled.hamburger}>
+        <Hamburger size={30} />
+      </div>
     </div>
   );
 };

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import React, { FC, useState, useEffect } from "react";
 import styled from "../Navbar/Navbar.module.css";
 interface INavbar {}
-
 const Navbar: FC<INavbar> = ({}) => {
   return (
     <ul className={styled.navbar}>

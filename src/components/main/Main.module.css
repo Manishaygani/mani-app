@@ -1,4 +1,6 @@
 .main{
 display: flex;
-background-color: white;
+}
+.hamburger{
+    margin-right:20px;
 }

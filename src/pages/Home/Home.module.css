@@ -4,3 +4,8 @@
     align-items: center;
     width:100%;
 }
+@media (max.width:500px){
+    .Home{
+        color: brown;
+    }
+}

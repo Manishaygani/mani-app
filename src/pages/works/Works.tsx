@@ -7,20 +7,20 @@ import WorksArticle from "../../components/worksArticle/WorksArticle";
 interface IWorks {}
 
 const Works: FC<IWorks> = ({}) => {
-  const [articles, setArticles] = useState();
+  const [Artiicles, setArtiicles] = useState([] as any);
   useEffect(() => {
     axios.get("http://localhost:8000/ArticlesData").then((result) => {
-      setArticles(result.data.data);
+      setArtiicles(result.data.data);
     });
   }, []);
   return (
     <div className={styled.works}>
       <WorksIntroduction />
-      {/* <div className={styled.arrticle}>
-        {articles.map((result: any) => (
+      <div className={styled.artiicles}>
+        {Artiicles?.map((result: any) => (
           <WorksArticle />
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };
