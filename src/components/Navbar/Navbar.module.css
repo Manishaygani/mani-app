@@ -1,5 +1,6 @@
 .navbar{
     list-style-type: none;
+    text-shadow: 1px 1px 2px;
     background-color:#141313 ;
     color: white;
     display: flex;
@@ -19,6 +20,9 @@
 .navbar a{
     color: white;
     text-decoration: none;
+}
+.navbar li:hover{
+color: red;
 }
 
 

@@ -7,18 +7,19 @@ import WorksArticle from "../../components/worksArticle/WorksArticle";
 interface IWorks {}
 
 const Works: FC<IWorks> = ({}) => {
-  const [Artiicles, setArtiicles] = useState([] as any);
+  const [artiicles, setArtiicles] = useState([] as any);
   useEffect(() => {
-    axios.get("http://localhost:8000/ArticlesData").then((result) => {
-      setArtiicles(result.data.data);
+    axios.get("https://jsonplaceholder.typicode.com/todos").then((result) => {
+      setArtiicles(result.data);
     });
   }, []);
+  console.log(artiicles);
   return (
     <div className={styled.works}>
       <WorksIntroduction />
       <div className={styled.artiicles}>
-        {Artiicles?.map((result: any) => (
-          <WorksArticle />
+        {artiicles?.map((result: any) => (
+          <WorksArticle title={result.title} />
         ))}
       </div>
     </div>

@@ -3,9 +3,11 @@
     justify-content: space-around;
     align-items: center;
     width:100%;
+    text-shadow: 1px 1px 2px;
 }
-@media (max.width:500px){
+@media all and(max-width:500px){
     .Home{
-        color: brown;
+display: flex;
+flex-direction: column;
     }
 }

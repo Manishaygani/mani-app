@@ -2,6 +2,8 @@
 display: flex;
 flex-flow: row wrap;
 justify-content: space-around;
+text-shadow: 1px 1px 2px;
+
 }
 .artiicles{
     display: flex;
@@ -9,4 +11,8 @@ justify-content: space-around;
     flex-wrap: wrap;
     padding-right:40px;
     margin-right:20px;
+}
+.spinner{
+    display: flex;
+    justify-content: center;
 }

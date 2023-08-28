@@ -18,9 +18,13 @@ const Main: FC<IMain> = ({}) => {
         <Route path="Works" element={<Works />} />
         <Route path="Contact" element={<Contact />} />
       </Routes>
-      <div className={styled.hamburger}>
-        <Hamburger size={30} />
-      </div>
+      <body>
+        <div>
+          <div className={styled.wave}></div>
+          <div className={styled.wave}></div>
+          <div className={styled.wave}></div>
+        </div>
+      </body>
     </div>
   );
 };
